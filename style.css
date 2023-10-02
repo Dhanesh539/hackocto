@@ -189,3 +189,22 @@ Description:  General styling for template (including Header, Footer, Sidebar)
 @import "teams/team-player";
 @import "teams/player-info";
 @import "teams/team-selection";
+
+
+@import "matches/match-replay";
+@import "matches/match-result";
+@import "matches/match-score";
+@import "matches/match-stats-links";
+@import "matches/match-player";
+@import "matches/match-stats-progress";
+@import "matches/match-stats-tabs";
+@import "matches/match-stats-widget-table";
+@import "matches/match-stats-widget-tabs";
+@import "matches/match-stats-widgets";
+@import "matches/match-team";
+@import "matches/matches-filter";
+@import "matches/matches-table";
+@import "matches/lineups-table";
+@import "matches/upcoming-table";
+@import "matches/standings-table";
+
