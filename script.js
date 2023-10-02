@@ -17,3 +17,25 @@
 //=include '../vendor/progressbar/progressbar.min.js'
 //=include '../vendor/jpinning/jpinning.js'
 //=include '../vendor/easyembed/jquery.easyembed.js'
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<input type="button" id="btn01" value="OK">
+</form>
+
+<p>Click the "Disable" button to disable the "OK" button:</p>
+
+<button onclick="disableElement()">Disable</button>
+
+<script>
+function disableElement() {
+  document.getElementById("btn01").disabled = true;
+}
+</script>
+
+</body>
+</html>
